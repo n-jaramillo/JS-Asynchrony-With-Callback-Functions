@@ -35,3 +35,23 @@ npc.walkNorth(1400, () => {
         })
     })
 })
+
+// Bonus: Testing 'Detect Collisions'
+/* 
+    Collision Logic: 
+    Player disappears when a collision is made with npc
+    if () remove player with .remove() ? do nothing
+
+    if (
+    pc.x < npc.x + npc.w &&
+    pc.x + pc.w > npc.x &&
+    pc.y < npc.y + npc.h &&
+    pc.h + pc.y > npc.y
+    ) {
+        querySelector
+        .remove()
+
+        // Find an element with a src that contains a string within that attribute and remove it
+        document.querySelector('[src*="green-character"]').remove()
+    }
+*/

@@ -20,3 +20,8 @@ move(newImage('assets/well.png')).to(500, 575)
 move(newItem('assets/sword.png')).to(500, 555)
 move(newItem('assets/shield.png')).to(165, 335)
 move(newItem('assets/staff.png')).to(600, 250)
+
+// Step 3: Testing npc.walkEast
+npc.walkEast(500, () => {
+    npc.walkNorth()    
+})
